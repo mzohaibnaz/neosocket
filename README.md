@@ -10,10 +10,6 @@ if you are using NeoSocket you should use [NeoSocket  - JS Client](#x) for compl
 ```sh
 $ composer install mzohaib/socketphp
 ```
-  - OR Manually
-
-> $ clone that repository in your project directory and include vendor/autoload.php file in your project.
-
 ## How to use
   - [Initialization](#initializing-neosocket)
   - [Setup socket](#setup-your-socket)
@@ -266,4 +262,5 @@ $socket->on("test", function($socket, $data){
 	// select client by attribute and dismiss it
 	$socket->clientByAttr("username", "test")->dismiss();
 ```
-**Good luck :)**
+# License
+[MIT](https://choosealicense.com/licenses/mit/)

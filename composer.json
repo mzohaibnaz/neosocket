@@ -1,0 +1,25 @@
+{
+    "name": "mzohaibnaz/neosocket",
+    "type": "library",
+    "version": "1.0",
+    "description": "Easy and simple library to create and manage web sockets.",
+    "keywords": ["sockets","websockets","socket.io","simplesockets"],
+    "homepage": "https://github.com/mzohaibnaz/neosocket",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "M Zohaib Naz",
+            "email": "mzohaibnaaz@gmail.com",
+            "homepage": "https://github.com/mzohaibnaz/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^=7.1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "NeoSocket\\": "src"
+        }
+    }
+}
