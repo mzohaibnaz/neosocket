@@ -8,7 +8,7 @@ if you are using NeoSocket you should use [NeoSocket  - JS Client](https://githu
   - Using composer
  
 ```sh
-$ composer install mzohaib/socketphp
+$ composer install mzohaibnaz/neosocket
 ```
 ## How to use
   - [Initialization](#initializing-neosocket)
@@ -31,8 +31,6 @@ $ composer install mzohaib/socketphp
 ## Initializing NeoSocket
 Initializing `NeoSocket` using `SocketManager` class
 ```php
-// include NeoSocket vendor
-require_once  "vendor/autoload.php";
 // Using neoSocket namespace
 use NeoSocket\SocketManager;
 // Initializing neoSocket with SocketManager
