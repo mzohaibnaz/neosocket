@@ -1,7 +1,7 @@
 # NeoSocket - (PHP)
 
 NeoSocket is a very simple and lite library that can help you to manage your socket logics.
-if you are using NeoSocket you should use [NeoSocket  - JS Client](#x) for complete solution package.
+if you are using NeoSocket you should use [NeoSocket  - JS Client](https://github.com/mzohaibnaz/ns-jsclient) for complete solution package.
 
 ## Installation
 
