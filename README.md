@@ -18,6 +18,7 @@ $ composer install mzohaibnaz/neosocket
   - - [Default event-types](#default-event-types)
   - - [New Connection](#new-connection)
   - - [On Disconnect](#on-user-disconnected)
+  - [Run Socket](#run-socket-after-setup)
   - [Sending data](#data-sending)
   -  - [Send to other event](#send-data-to-other-event)
   -  - [Send to client](#send-data-to-specific-client)
@@ -119,7 +120,23 @@ $socket->on("disconnected", function($socket, $uid){
 	$socket->event("ondisconnect")->send("\n disconnected user with id! : {$uid} \n");
 });
 ```
+## Run socket after setup
+`run` method is used to actually run your socket server after all events are setup.
 
+###### Example
+```php
+// Example #1
+
+$ns->setup(function($socket){
+	// setup socket here
+})->run();
+
+// Example #2 
+$myserver = $ns->setup(function($socket){
+	// setup socket here
+});
+$myserver->run(); // run socket to accept new connections
+```
 
 ## Data Sending
 `send` method is used to send data on events.
